@@ -7,6 +7,7 @@ numberTwo = 1.123465789
 #Exponentiation ... 3^2
 3 ** 2
 
+###################################
 #strings
 string = 'helloWorld'
 stringWithTab = "here's a \t tab";
@@ -66,6 +67,44 @@ str1
 #length. You already know what this funtion do
 len(str1)
 
+#########################################
+#Lists -> data structure that can store diferent types of variables. The index, slicing and len works the same way as the string
+data = [4, "A string", -15, 3.14, "another string"]
+data
 
+#you can add some lists between each other
+data = [4, "A string", -15, 3.14, "another string"] + ["cola", 123654, 'loca']
 
+#unlike strings, lists are mutable
+data[-3] = "kola"
 
+#use the append method to add a value at the final of the list
+data.append('usingAppend')
+
+#list can modify more than one value with slicing
+data[:3] = ['mod1', "mod2", 3]
+
+#to delete the values of a list assign a '[]'. yo can delete all the list of a range with slicing
+data[3:] = []
+data[] = []
+
+#neasted lists. I like to see this like a n dimensional list. to access to de diferent dimensions, python uses the next syntax: list[x][y][z]...[n] 
+#were 'x' is the 1st dimension, 'y' the 2nd and 'z' the 3rd
+a = [1,2,3]
+b = [4,5,6]
+c = [7,8,9]
+r = [a,b,c]
+
+#prints
+print(r)
+print(r[1][1]) 
+
+#modify and print. 
+#something important with this example is that you can access the individual characters od the string in r as r[2][1] is a string, and a string is a array/list of char
+r[2][1]= "now is a string"
+print(r[2][1][-1])
+
+#############################################
+#data input. any input is an string, use int() to parse it (if you want) and so on with every data type
+valueIn = input()
+valueIn = int(input("give me an int: "))#expecting an int value
