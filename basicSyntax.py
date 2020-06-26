@@ -104,6 +104,8 @@ print(r[1][1])
 r[2][1]= "now is a string"
 print(r[2][1][-1])
 
+#additional methods: sum(list) and list[::-1]. Add all of the elements and flips the list, respectively
+
 #############################################
 #data input. any input is an string, use int() to parse it (if you want) and so on with every data type
 valueIn = input()
