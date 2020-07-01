@@ -46,5 +46,3 @@ numeros
 #range(x,y,z) where 'x' is the beggining (if you put nothing strats from 0) 'y' is the end and 'z' the steps (if nothing will be 1 by 1)    
 for x in range(2, 30, 3):
   print(x)   
-    
-    
