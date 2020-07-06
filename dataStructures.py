@@ -1,4 +1,9 @@
-################################################3
+#methods
+#index -> structure.index(element)
+#count -> structure.count(element)
+#add   -> structure.add(element)
+
+################################################
 #Tuples. Almost the same as a list, but immutable. As tuples are immutable, the append method won't work
 #index method will bring you back the first time that an element appears in the tuple. Also works with lists
 tuple.index(1234)
